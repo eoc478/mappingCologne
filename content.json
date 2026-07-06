@@ -3,120 +3,120 @@
     "id": "ambulance",
     "name": "Ambulance",
     "category": "street",
-    "sound": "assets/audio/ambulance.mp3",
-    "img": "assets/images/ambulance.jpg",
+    "sound": "./assets/audio/ambulance.mp3",
+    "img": "./assets/images/ambulance.jpg",
     "position": { "left": "58%", "top": "33%" }
   },
   {
     "id": "streetTick",
     "name": "Street Tick",
     "category": "street",
-    "sound": "assets/audio/streetTick.m4a",
-    "img": "assets/images/street.jpg",
+    "sound": "./assets/audio/streetTick.m4a",
+    "img": "./assets/images/street.jpg",
     "position": { "left": "28%", "top": "34%" }
   },
   {
     "id": "tramTick",
     "name": "Tram Station Tick",
     "category": "street",
-    "sound": "assets/audio/beepinTram.m4a",
-    "img": "assets/images/tramTick.jpg",
+    "sound": "./assets/audio/beepinTram.m4a",
+    "img": "./assets/images/tramTick.jpg",
     "position": { "left": "36%", "top": "27%" }
   },
   {
     "id": "tramCreak",
     "name": "rails squeaking",
     "category": "street",
-    "sound": "assets/audio/traincreak.m4a",
-    "img": "assets/images/15train.jpg",
+    "sound": "./assets/audio/traincreak.m4a",
+    "img": "./assets/images/15train.jpg",
     "position": { "left": "25%", "top": "45%" }
   },
   {
     "id": "bells",
     "name": "Dom Bells",
     "category": "dom",
-    "sound": "assets/audio/bells.m4a",
-    "img": "assets/images/dom.jpg",
+    "sound": "./assets/audio/bells.m4a",
+    "img": "./assets/images/dom.jpg",
     "position": { "left": "68%", "top": "38%" }
   },
   {
     "id": "birds",
     "name": "Birds",
     "category": "park",
-    "sound": "assets/audio/Bird.m4a",
-    "img": "assets/images/kommie.jpg",
+    "sound": "./assets/audio/Bird.m4a",
+    "img": "./assets/images/kommie.jpg",
     "position": { "left": "28%", "top": "23%" }
   },
   {
     "id": "birds2",
     "name": "Bird2",
     "category": "park",
-    "sound": "assets/audio/Bird2.m4a",
-    "img": "assets/images/kommie.jpg",
+    "sound": "./assets/audio/Bird2.m4a",
+    "img": "./assets/images/kommie.jpg",
     "position": { "left": "20%", "top": "28%" }
   },
     {
     "id": "birds3",
     "name": "Bird3",
     "category": "park",
-    "sound": "assets/audio/Bird3.m4a",
-    "img": "assets/images/kommie.jpg",
+    "sound": "./assets/audio/Bird3.m4a",
+    "img": "./assets/images/kommie.jpg",
     "position": { "left": "23%", "top": "30%" }
   },
   {
     "id": "fountain",
     "name": "Fountain",
     "category": "park",
-    "sound": "assets/audio/fountain.m4a",
-    "img": "assets/images/fountain.jpg",
+    "sound": "./assets/audio/fountain.m4a",
+    "img": "./assets/images/fountain.jpg",
     "position": { "left": "32%", "top": "30%" }
   },
   {
     "id": "chirp",
     "name": "bird chirp",
     "category": "park",
-    "sound": "assets/audio/Chirp.m4a",
-    "img": "assets/images/ropes.jpg",
+    "sound": "./assets/audio/Chirp.m4a",
+    "img": "./assets/images/ropes.jpg",
     "position": { "left": "25%", "top": "28%" }
   },
   {
     "id": "cheers",
     "name": "Cheer",
     "category": "street",
-    "sound": "assets/audio/Cheer.m4a",
-    "img": "assets/images/paff.jpg",
+    "sound": "./assets/audio/Cheer.m4a",
+    "img": "./assets/images/paff.jpg",
     "position": { "left": "33%", "top": "36%" }
   },
   {
     "id": "transfer",
     "name": "Transfer",
     "category": "street",
-    "sound": "assets/audio/1617transfer.m4a",
-    "img": "assets/images/15train.jpg",
+    "sound": "./assets/audio/1617transfer.m4a",
+    "img": "./assets/images/15train.jpg",
     "position": { "left": "27%", "top": "55%" }
   },
   {
     "id": "chlodwigplatz",
     "name": "Chlodwigplatz",
     "category": "street",
-    "sound": "assets/audio/chlodwigplatz.m4a",
-    "img": "assets/images/tram.jpg",
+    "sound": "./assets/audio/chlodwigplatz.m4a",
+    "img": "./assets/images/tram.jpg",
     "position": { "left": "72%", "top": "84%" }
   },
   {
     "id": "goal",
     "name": "Goal!",
     "category": "street",
-    "sound": "assets/audio/scoredagoal.m4a",
-    "img": "assets/images/minitruck.jpg",
+    "sound": "./assets/audio/scoredagoal.m4a",
+    "img": "./assets/images/minitruck.jpg",
     "position": { "left": "37%", "top": "35%" }
   },
     {
     "id": "pingpong",
     "name": "Ping Pong",
     "category": "school",
-    "sound": "assets/audio/pingPong.m4a",
-    "img": "assets/images/pingPong.jpg",
+    "sound": "./assets/audio/pingPong.m4a",
+    "img": "./assets/images/pingPong.jpg",
     "position": { "left": "77%", "top": "85%" }
   }
 ]
