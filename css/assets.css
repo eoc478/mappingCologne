@@ -56,9 +56,11 @@
   background: transparent;
   direction: ltr;
   height: 90%;
-  width: 100%;
+  width: 90%;
   transform: none;
   outline: none;
+  align-self: center;
+
 }
 
 .slider::-webkit-slider-thumb{

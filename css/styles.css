@@ -19,14 +19,10 @@ h1{
   display: grid;
   width: 96vw;
   height: 96dvh;
-  grid-template-columns: minmax(0, 1.5fr) minmax(0, 2fr);
-  grid-template-rows: minmax(0, 1fr) minmax(0, 1fr);
-  align-items: stretch;
-  gap: clamp(0.75rem, 1.5vw, 1.25rem);
+  grid-template-columns: 1.5fr 2fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
   margin: 2%;
-  padding: clamp(1rem, 2vw, 1.5rem);
-  box-sizing: border-box;
-  overflow: hidden;
 
   background: #d9e5e5;
   border-radius: 2vh;
@@ -42,9 +38,8 @@ h1{
   align-items: center;
   height: 100%;
   min-height: 0;
-  min-width: 0;
   overflow: hidden;
-  padding: 0.75rem;
+  padding: 1rem;
   box-sizing: border-box;
 }
 
@@ -107,11 +102,9 @@ h1{
   display: flex;
   flex-direction: column;
   justify-content: space-between; 
-  align-self: stretch;
-  min-width: 0;
-  min-height: 0;
+   
   gap: 30px;
-  box-sizing: border-box;
+  /* height: 100%; */
 }
 
 .sliderLabel{
@@ -140,11 +133,9 @@ h1{
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 3%;
-  padding: clamp(0.75rem, 2vw, 1.25rem);
+  padding: 5%;
   position: relative;
-  align-self: stretch;
-  justify-self: stretch;
-  box-sizing: border-box;
+  align-self: center;
 }
 
 .soundGridActions {

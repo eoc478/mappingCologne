@@ -86,7 +86,7 @@ function toggleHeatmap() {
 
     heatmapVisible = !heatmapVisible;
     mapHeat.classList.toggle("visible", heatmapVisible);
-    toggleHeatmapButton.textContent = heatmapVisible ? "hide heatmap" : "show heatmap";
+    toggleHeatmapButton.textContent = heatmapVisible ? "hide heatmap" : "toggle heatmap";
 }
 
 if (toggleHeatmapButton) {
