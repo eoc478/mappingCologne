@@ -12,7 +12,7 @@
     "name": "Street Tick",
     "category": "street",
     "sound": "./assets/audio/streetTick.m4a",
-    "img": "./assets/images/gowalk.jpg",
+    "img": "./assets/images/street.jpg",
     "position": { "left": "28%", "top": "34%" }
   },
   {
