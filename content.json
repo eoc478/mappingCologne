@@ -12,7 +12,7 @@
     "name": "Street Tick",
     "category": "street",
     "sound": "./assets/audio/streetTick.m4a",
-    "img": "./assets/images/street.JPG",
+    "img": "./assets/images/street.jpg",
     "position": { "left": "28%", "top": "34%" }
   },
   {
@@ -20,7 +20,7 @@
     "name": "Tram Station Tick",
     "category": "street",
     "sound": "./assets/audio/beepinTram.m4a",
-    "img": "./assets/images/tramTick.JPG",
+    "img": "./assets/images/tramTick.jpg",
     "position": { "left": "36%", "top": "27%" }
   },
   {
@@ -28,7 +28,7 @@
     "name": "rails squeaking",
     "category": "street",
     "sound": "./assets/audio/traincreak.m4a",
-    "img": "./assets/images/15train.JPG",
+    "img": "./assets/images/15train.jpg",
     "position": { "left": "25%", "top": "45%" }
   },
   {
@@ -36,7 +36,7 @@
     "name": "Dom Bells",
     "category": "dom",
     "sound": "./assets/audio/bells.m4a",
-    "img": "./assets/images/dom.JPG",
+    "img": "./assets/images/dom.jpg",
     "position": { "left": "68%", "top": "38%" }
   },
   {
@@ -44,7 +44,7 @@
     "name": "Birds",
     "category": "park",
     "sound": "./assets/audio/Bird.m4a",
-    "img": "./assets/images/kommie.JPG",
+    "img": "./assets/images/kommie.jpg",
     "position": { "left": "28%", "top": "23%" }
   },
   {
@@ -52,7 +52,7 @@
     "name": "Bird2",
     "category": "park",
     "sound": "./assets/audio/Bird2.m4a",
-    "img": "./assets/images/kommie.JPG",
+    "img": "./assets/images/kommie.jpg",
     "position": { "left": "20%", "top": "28%" }
   },
     {
@@ -60,7 +60,7 @@
     "name": "Bird3",
     "category": "park",
     "sound": "./assets/audio/Bird3.m4a",
-    "img": "./assets/images/kommie.JPG",
+    "img": "./assets/images/kommie.jpg",
     "position": { "left": "23%", "top": "30%" }
   },
   {
@@ -68,7 +68,7 @@
     "name": "Fountain",
     "category": "park",
     "sound": "./assets/audio/fountain.m4a",
-    "img": "./assets/images/fountain.JPG",
+    "img": "./assets/images/fountain.jpg",
     "position": { "left": "32%", "top": "30%" }
   },
   {
@@ -76,7 +76,7 @@
     "name": "bird chirp",
     "category": "park",
     "sound": "./assets/audio/Chirp.m4a",
-    "img": "./assets/images/ropes.JPG",
+    "img": "./assets/images/ropes.jpg",
     "position": { "left": "25%", "top": "28%" }
   },
   {
@@ -84,7 +84,7 @@
     "name": "Cheer",
     "category": "street",
     "sound": "./assets/audio/Cheer.m4a",
-    "img": "./assets/images/paff.JPG",
+    "img": "./assets/images/paff.jpg",
     "position": { "left": "33%", "top": "36%" }
   },
   {
@@ -92,7 +92,7 @@
     "name": "Transfer",
     "category": "street",
     "sound": "./assets/audio/1617transfer.m4a",
-    "img": "./assets/images/15train.JPG",
+    "img": "./assets/images/15train.jpg",
     "position": { "left": "27%", "top": "55%" }
   },
   {
@@ -100,7 +100,7 @@
     "name": "Chlodwigplatz",
     "category": "street",
     "sound": "./assets/audio/chlodwigplatz.m4a",
-    "img": "./assets/images/tram.JPG",
+    "img": "./assets/images/tram.jpg",
     "position": { "left": "72%", "top": "84%" }
   },
   {
@@ -108,7 +108,7 @@
     "name": "Goal!",
     "category": "street",
     "sound": "./assets/audio/scoredagoal.m4a",
-    "img": "./assets/images/minitruck.JPG",
+    "img": "./assets/images/minitruck.jpg",
     "position": { "left": "37%", "top": "35%" }
   },
     {
@@ -116,7 +116,7 @@
     "name": "Ping Pong",
     "category": "school",
     "sound": "./assets/audio/pingPong.m4a",
-    "img": "./assets/images/pingPong.JPG",
+    "img": "./assets/images/pingPong.jpg",
     "position": { "left": "77%", "top": "85%" }
   }
 ]
