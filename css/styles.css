@@ -1,0 +1,179 @@
+body{
+    background-color: #cbd8d8;
+    margin: 0;
+    padding: 0;
+    overflow: scroll;
+}
+
+h1{
+    font-size: 10vh;
+
+}
+
+.container{
+  display: grid;
+  height: 100%;
+  grid-template-columns: 2fr 2fr 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+}
+
+.mapContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  min-height: 0;
+  overflow: hidden;
+}
+
+#map{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 90%;
+  max-height: 90%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  box-shadow: 0 0 8vh 8vh #cbd8d8 inset;
+  z-index: 1;
+}
+
+#mapHeat{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 90%;
+  max-height: 90%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  box-shadow: 0 0 8vh 8vh #cbd8d8 inset;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+  z-index: 2;
+}
+
+#dotsContainer {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+}
+
+.dot{
+  position: absolute;
+  width: 2%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: rgb(255, 66, 145);
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+#dotContainer{
+  position: absolute;
+}
+
+.slider{
+  -webkit-appearance: none;
+  appearance: none;
+
+  background: transparent;
+
+  writing-mode: vertical-lr;
+  height: 90%;
+  transform: rotate(180deg);
+  outline: none;
+}
+
+.slider::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: pink;
+  cursor: pointer;
+}
+
+.slider::-webkit-slider-runnable-track {
+    background: #944458; 
+    width: 6px;
+    border-radius: 9px;
+}
+
+.sliderContainer{
+  display: flex;
+  justify-content: space-around; 
+  align-items: center;     
+  gap: 30px;
+  height: 100%;
+}
+
+.sliderLabel{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#deleteButton,
+#clearAllButton,
+#toggleHeatmapButton {
+  padding: 0.5rem 0.8rem;
+  border: none;
+  border-radius: 999px;
+  background: #5b3b2a;
+  color: white;
+  cursor: pointer;
+}
+
+#deleteButton:hover,
+#clearAllButton:hover,
+#toggleHeatmapButton:hover {
+  background: #4a2f21;
+}
+
+#mapHeat.visible {
+  opacity: 1;
+}
+
+.soundGrid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 3%;
+  padding: 5%;
+  position: relative;
+}
+
+.soundGridActions {
+  grid-column: 1 / -1;
+  align-self: end;
+  justify-self: start;
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.slot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    aspect-ratio: 1 / 1;
+}
+
+.grid-image {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+    display: block;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+}
+

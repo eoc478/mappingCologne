@@ -3,34 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/assets.css">
     <title>sounds of cologne</title>
 </head>
 <body>
     <div class="container">
-        <h1>sounds of cologne</h1>
-        <div class="area">
-            <div class="parkArea">
-                <img src="assets/IMG_1115.JPG" alt="Köln Dom Filler Image">
-                <a href="park/park.html">
-                    <button>spielplatz</button>
-                </a>
-            </div>
-            <div class="domArea">
-                <img src="assets/IMG_1115.JPG" alt="Köln Dom Filler Image">
-                <a href="dom/dom.html">
-                    <button>köln dom</button>
-                </a>
-            </div>
-            <div class="streetArea">
-                <img src="assets/IMG_1115.JPG" alt="Köln Dom Filler Image">
-                <a href="street/street.html">
-                    <button>streets</button>
-                </a>
-            </div>
-
+        <!-- <h1>sounds of cologne</h1> -->
+        <div class="mapContainer">
+            <img src="assets/map2.png" alt="map of cologne" id="map">
+            <img src="assets/mapheat.jpg" alt="map of cologne noise map" id="mapHeat">
+            <div id="dotsContainer"></div>
         </div>
+
+        <div class="soundGrid">
+            <div class="slot"></div>
+            <div class="slot"></div>
+            <div class="slot"></div>
+            <div class="slot"></div>
+            <div class="slot"></div>
+            <div class="slot"></div>
+            <div class="soundGridActions">
+                <button id="toggleHeatmapButton" type="button">show heatmap</button>
+                <button id="deleteButton" type="button">delete</button>
+                <button id="clearAllButton" type="button">clear all</button>
+            </div>
+        </div>
+
+        <div class="sliderContainer">
+            <div class="sliderLabel">
+                 <input type="range" min="1" max="100" value="50" class="slider" id="volumeSlider">
+                 <p>volume</p> 
+            </div>
+            <div class="sliderLabel">
+                <input type="range" min="1" max="100" value="50" class="slider" id="pitchSlider">
+                <p>pitch</p>
+            </div>    
+            <div class="sliderLabel">
+                <input type="range" min="50" max="200" value="100" class="slider" id="tempoSlider">
+                <p>tempo</p>
+            </div>
+        </div>
+
     </div>
     
+    <script src="https://cdn.jsdelivr.net/npm/tone@latest/build/Tone.min.js"></script>
+    <script src="js/selection.js"></script>
+    <script src="js/draganddrop.js"></script>
 </body>
 </html>

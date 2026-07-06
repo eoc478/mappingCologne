@@ -1,0 +1,45 @@
+.popup{
+    display: none;
+    position: absolute;
+    width: max-content;
+    bottom: 10px;
+    left: 50%;
+    padding-bottom: 1vh;
+    transform: translateX(-50%);
+    border-radius: 2px;
+    flex-direction: column;
+    align-items: center;
+    z-index: 100;
+}
+
+.dot:hover .popup {
+    display: flex;
+}
+
+.grid-image.spin-in {
+    animation: spin 6700ms linear infinite ;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.popup img {
+    width: 5vw;
+    border-radius: 2px;
+}
+
+.selected .grid-image {
+    border: 3px solid #7afd7a9c;
+}
+
+.popup p {
+    margin: 6px 0 0 0;
+    text-align: center;
+    white-space: nowrap;
+}
