@@ -79,34 +79,6 @@ h1{
   position: absolute;
 }
 
-.slider{
-  -webkit-appearance: none;
-  appearance: none;
-
-  background: transparent;
-
-  writing-mode: vertical-lr;
-  height: 90%;
-  transform: rotate(180deg);
-  outline: none;
-}
-
-.slider::-webkit-slider-thumb{
-  -webkit-appearance: none;
-  appearance: none;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background: pink;
-  cursor: pointer;
-}
-
-.slider::-webkit-slider-runnable-track {
-    background: #944458; 
-    width: 6px;
-    border-radius: 9px;
-}
-
 .sliderContainer{
   display: flex;
   justify-content: space-around; 
@@ -121,23 +93,6 @@ h1{
   justify-content: space-between;
 }
 
-#deleteButton,
-#clearAllButton,
-#toggleHeatmapButton {
-  padding: 0.5rem 0.8rem;
-  border: none;
-  border-radius: 999px;
-  background: #5b3b2a;
-  color: white;
-  cursor: pointer;
-}
-
-#deleteButton:hover,
-#clearAllButton:hover,
-#toggleHeatmapButton:hover {
-  background: #4a2f21;
-}
-
 #mapHeat.visible {
   opacity: 1;
 }
@@ -149,7 +104,8 @@ h1{
   gap: 3%;
   padding: 5%;
   position: relative;
-  align-self: center;
+  align-content: center;
+  justify-content: center;
 }
 
 .soundGridActions {
@@ -162,17 +118,18 @@ h1{
 }
 
 .slot {
+  width: 90%;
+  aspect-ratio: 1 / 1;
+
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
-  aspect-ratio: 1 / 1;
+  align-self: center;
+  justify-self: center;
 
-  width: 100%;
-  height: 100%;
-  background-color: #b2c0c9;
-  border-radius: 60%;
-  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  background-color: #c9d4d1;
+  border-radius: 50%;
 }
 
 .grid-image {

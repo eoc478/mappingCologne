@@ -34,12 +34,64 @@
     border-radius: 2px;
 }
 
+.grid-image:hover {
+   border: 6px solid #7afd7a9c; 
+}
+
 .selected .grid-image {
-    border: 3px solid #7afd7a9c;
+    border: 6px solid #7afd7a9c;
 }
 
 .popup p {
     margin: 6px 0 0 0;
     text-align: center;
     white-space: nowrap;
+}
+
+
+/* -----------------------------slider------------------------------ */
+.slider{
+  -webkit-appearance: none;
+  appearance: none;
+
+  background: transparent;
+
+  writing-mode: vertical-lr;
+  height: 90%;
+  transform: rotate(180deg);
+  outline: none;
+}
+
+.slider::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #7afd7a9c;
+  cursor: pointer;
+}
+
+.slider::-webkit-slider-runnable-track {
+    background: #5b3b2a; 
+    width: 6px;
+    border-radius: 9px;
+}
+
+/* ---------------------------button--------------------------------- */
+#deleteButton,
+#clearAllButton,
+#toggleHeatmapButton {
+  padding: 0.5rem 0.8rem;
+  border: none;
+  border-radius: 999px;
+  background: #5b3b2a;
+  color: white;
+  cursor: pointer;
+}
+
+#deleteButton:hover,
+#clearAllButton:hover,
+#toggleHeatmapButton:hover {
+  background: #A0B98D;
 }
