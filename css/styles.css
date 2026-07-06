@@ -19,23 +19,33 @@ h1{
   display: grid;
   width: 96vw;
   height: 96dvh;
-  grid-template-columns: 2fr 2fr 1fr;
-  grid-template-rows: 1fr;
-  align-items: center;
+  grid-template-columns: minmax(0, 1.5fr) minmax(0, 2fr);
+  grid-template-rows: minmax(0, 1fr) minmax(0, 1fr);
+  align-items: stretch;
+  gap: clamp(0.75rem, 1.5vw, 1.25rem);
   margin: 2%;
+  padding: clamp(1rem, 2vw, 1.5rem);
+  box-sizing: border-box;
+  overflow: hidden;
 
   background: #d9e5e5;
   border-radius: 2vh;
 }
 
 .mapContainer {
+  grid-column: 1;
+  grid-row: 1 /span 2;
+
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
   min-height: 0;
+  min-width: 0;
   overflow: hidden;
+  padding: 0.75rem;
+  box-sizing: border-box;
 }
 
 #map{
@@ -90,6 +100,20 @@ h1{
   position: absolute;
 }
 
+.sliderContainer{
+  grid-column: 2;
+  grid-row: 2;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  align-self: stretch;
+  min-width: 0;
+  min-height: 0;
+  gap: 30px;
+  box-sizing: border-box;
+}
+
 .sliderLabel{
   display: flex;
   flex-direction: column;
@@ -100,14 +124,27 @@ h1{
   opacity: 1;
 }
 
+#toggleHeatmapButton {
+  position: absolute;
+  left: 1rem;
+  bottom: 1rem;
+  z-index: 4;
+  margin: 0;
+}
+
 .soundGrid{
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-column: 2;
+  grid-row: 1;
+
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   gap: 3%;
-  padding: 5%;
+  padding: clamp(0.75rem, 2vw, 1.25rem);
   position: relative;
-  align-self: center;
+  align-self: stretch;
+  justify-self: stretch;
+  box-sizing: border-box;
 }
 
 .soundGridActions {

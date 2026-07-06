@@ -54,10 +54,10 @@
   appearance: none;
 
   background: transparent;
-
-  writing-mode: vertical-lr;
+  direction: ltr;
   height: 90%;
-  transform: rotate(180deg);
+  width: 100%;
+  transform: none;
   outline: none;
 }
 
@@ -73,16 +73,13 @@
 
 .slider::-webkit-slider-runnable-track {
     background: #5b3b2a; 
-    width: 6px;
+    width: 100%;
+    height: 100%;
     border-radius: 9px;
 }
 
 .sliderContainer{
-  display: flex;
-  justify-content: space-around; 
-  align-items: center;     
-  gap: 30px;
-  height: 100%;
+
 }
 
 /* ----------------------------buttons-------------------------------- */
