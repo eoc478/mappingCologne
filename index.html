@@ -13,7 +13,6 @@
         <div class="mapContainer">
             <img src="assets/map2.png" alt="map of cologne" id="map">
             <img src="assets/mapheat.jpg" alt="map of cologne noise map" id="mapHeat">
-            <button id="toggleHeatmapButton" type="button">toggle heatmap</button>
             <div id="dotsContainer"></div>
         </div>
 
@@ -24,25 +23,32 @@
             <div class="slot"></div>
             <div class="slot"></div>
             <div class="slot"></div>
-            <div class="soundGridActions">
-                <button id="deleteButton" type="button">delete</button>
-                <button id="clearAllButton" type="button">clear all</button>
-            </div>
         </div>
 
         <div class="sliderContainer">
             <div class="sliderLabel">
+                <p>volume</p> 
                  <input type="range" min="1" max="100" value="50" class="slider" id="volumeSlider">
-                 <p>volume</p> 
             </div>
             <div class="sliderLabel">
-                <input type="range" min="1" max="100" value="50" class="slider" id="pitchSlider">
                 <p>pitch</p>
+                <input type="range" min="1" max="100" value="50" class="slider" id="pitchSlider">    
             </div>    
             <div class="sliderLabel">
-                <input type="range" min="50" max="200" value="100" class="slider" id="tempoSlider">
                 <p>tempo</p>
+                <input type="range" min="50" max="200" value="100" class="slider" id="tempoSlider">
             </div>
+        </div>
+
+        <div class="buttonContainer">
+            <div class="heatMapButton">
+                <button id="toggleHeatmapButton" type="button">toggle heatmap</button>
+            </div>
+            <div class="deleteClearButton">
+                <button id="deleteButton" type="button">delete</button>
+                <button id="clearAllButton" type="button">clear all</button>
+            </div>
+
         </div>
 
     </div>
