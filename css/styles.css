@@ -1,3 +1,8 @@
+html{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
 body{
     background-color: #cbd8d8;
     margin: 0;
@@ -45,6 +50,13 @@ h1{
   overflow: hidden;
   /* padding: 1rem; */
   box-sizing: border-box;
+}
+
+.mapContainer p{
+  font-weight: 300;
+  font-size: 12px;
+  text-align: center;
+  text-shadow: 32px #cbd8d8;
 }
 
 #map{
@@ -153,7 +165,31 @@ h1{
   overflow: hidden;
   background-color: #cbd8d8;
   border-radius: 50%;
+
+  z-index: 1;
 }
+
+.slot img{
+  z-index: 2;
+}
+
+/* .slotCircle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 50%;
+  aspect-ratio: 1 / 1;
+
+  align-self: center;
+  justify-self: center;
+
+  overflow: hidden;
+  background-color: #cbd8d8;
+  border-radius: 50%;
+
+  z-index: 4;
+} */
 
 .buttonContainer {
   grid-column: 1 / span 2;

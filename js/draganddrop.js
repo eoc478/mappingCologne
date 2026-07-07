@@ -43,7 +43,7 @@ function renderDotsFromJSON() {
     title.textContent = sound.name;
 
     popup.appendChild(img);
-    popup.appendChild(title);
+    // popup.appendChild(title);
 
     dot.appendChild(popup);
     dotsContainer.appendChild(dot);

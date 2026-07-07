@@ -1,7 +1,7 @@
 [
   {
     "id": "ambulance",
-    "name": "Ambulance",
+    "name": "ambulance",
     "category": "street",
     "sound": "./assets/audio/ambulance.mp3",
     "img": "./assets/images/ambulance.jpg",
@@ -9,7 +9,7 @@
   },
   {
     "id": "streetTick",
-    "name": "Street Tick",
+    "name": "street tick",
     "category": "street",
     "sound": "./assets/audio/streetTick.m4a",
     "img": "./assets/images/goWalk.jpg",
@@ -17,7 +17,7 @@
   },
   {
     "id": "tramTick",
-    "name": "Tram Station Tick",
+    "name": "tram station tick",
     "category": "street",
     "sound": "./assets/audio/beepinTram.m4a",
     "img": "./assets/images/tramTick.jpg",
@@ -32,16 +32,16 @@
     "position": { "left": "25%", "top": "45%" }
   },
   {
-    "id": "bells",
-    "name": "Dom Bells",
-    "category": "dom",
-    "sound": "./assets/audio/bells.m4a",
-    "img": "./assets/images/dom.jpg",
-    "position": { "left": "68%", "top": "38%" }
+    "id": "kvb",
+    "name": "bike bell",
+    "category": "street",
+    "sound": "./assets/audio/kvbBell.m4a",
+    "img": "./assets/images/kvb.jpg",
+    "position": { "left": "73%", "top": "42%" }
   },
   {
     "id": "birds",
-    "name": "Birds",
+    "name": "birds",
     "category": "park",
     "sound": "./assets/audio/Bird.m4a",
     "img": "./assets/images/kommie.jpg",
@@ -49,23 +49,23 @@
   },
   {
     "id": "birds2",
-    "name": "Bird2",
+    "name": "birds",
     "category": "park",
     "sound": "./assets/audio/Bird2.m4a",
-    "img": "./assets/images/kommie.jpg",
+    "img": "./assets/images/trees.jpg",
     "position": { "left": "20%", "top": "28%" }
   },
     {
     "id": "birds3",
-    "name": "Bird3",
+    "name": "birds",
     "category": "park",
     "sound": "./assets/audio/Bird3.m4a",
-    "img": "./assets/images/kommie.jpg",
+    "img": "./assets/images/bird.jpg",
     "position": { "left": "23%", "top": "30%" }
   },
   {
     "id": "fountain",
-    "name": "Fountain",
+    "name": "fountain",
     "category": "park",
     "sound": "./assets/audio/fountain.m4a",
     "img": "./assets/images/fountain.jpg",
@@ -81,15 +81,15 @@
   },
   {
     "id": "cheers",
-    "name": "Cheer",
+    "name": "cheer",
     "category": "street",
     "sound": "./assets/audio/Cheer.m4a",
-    "img": "./assets/images/paff.jpg",
+    "img": "./assets/images/flags.jpg",
     "position": { "left": "33%", "top": "36%" }
   },
   {
     "id": "transfer",
-    "name": "Transfer",
+    "name": "transfer",
     "category": "street",
     "sound": "./assets/audio/1617transfer.m4a",
     "img": "./assets/images/15train.jpg",
@@ -97,26 +97,90 @@
   },
   {
     "id": "chlodwigplatz",
-    "name": "Chlodwigplatz",
+    "name": "chlodwigplatz",
     "category": "street",
     "sound": "./assets/audio/chlodwigplatz.m4a",
-    "img": "./assets/images/tram.jpg",
+    "img": "./assets/images/chlodwigplatz.jpg",
     "position": { "left": "72%", "top": "84%" }
   },
   {
     "id": "goal",
-    "name": "Goal!",
+    "name": "goal!",
     "category": "street",
     "sound": "./assets/audio/scoredagoal.m4a",
-    "img": "./assets/images/minitruck.jpg",
+    "img": "./assets/images/germanFlags.jpg",
     "position": { "left": "37%", "top": "35%" }
   },
-    {
+  {
     "id": "pingpong",
-    "name": "Ping Pong",
+    "name": "ping pong",
     "category": "school",
     "sound": "./assets/audio/pingPong.m4a",
     "img": "./assets/images/pingPong.jpg",
     "position": { "left": "77%", "top": "85%" }
+  },
+    {
+    "id": "carPassing",
+    "name": "car passing",
+    "category": "school",
+    "sound": "./assets/audio/Carpassing.m4a",
+    "img": "./assets/images/carPassing.jpg",
+    "position": { "left": "52%", "top": "85%" }
+  },
+  {
+    "id": "gottesweg",
+    "name": "tram",
+    "category": "street",
+    "sound": "./assets/audio/Gottesweg.m4a",
+    "img": "./assets/images/tramPassing.jpg",
+    "position": { "left": "27%", "top": "75%" }
+  },
+    {
+    "id": "happyPride",
+    "name": "pride parade",
+    "category": "street",
+    "sound": "./assets/audio/Happypride.m4a",
+    "img": "./assets/images/happyPride.jpg",
+    "position": { "left": "32%", "top": "40%" }
+  },
+  {
+    "id": "kvb",
+    "name": "bike bell",
+    "category": "street",
+    "sound": "./assets/audio/kvbBell.m4a",
+    "img": "./assets/images/kvb.jpg",
+    "position": { "left": "53%", "top": "62%" }
+  },
+    {
+    "id": "crickets",
+    "name": "crickets",
+    "category": "park",
+    "sound": "./assets/audio/nightCrickets.m4a",
+    "img": "./assets/images/crickets.jpg",
+    "position": { "left": "43%", "top": "82%" }
+  },
+      {
+    "id": "scooter",
+    "name": "scooter bell",
+    "category": "park",
+    "sound": "./assets/audio/scooterBell.m4a",
+    "img": "./assets/images/scooter.jpg",
+    "position": { "left": "34%", "top": "62%" }
+  },
+      {
+    "id": "tramArrive",
+    "name": "tram arriving",
+    "category": "park",
+    "sound": "./assets/audio/tramArrive.m4a",
+    "img": "./assets/images/tramComing.jpg",
+    "position": { "left": "32%", "top": "38%" }
+  },
+    {
+    "id": "what",
+    "name": " ",
+    "category": "park",
+    "sound": "./assets/audio/what.m4a",
+    "img": "./assets/images/minitruck.jpg",
+    "position": { "left": "40%", "top": "48%" }
   }
 ]
