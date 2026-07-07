@@ -35,12 +35,13 @@
 }
 
 .selected .grid-image {
-    border: 6px solid #7afd7a9c;
+    border: 9px solid #7afd7a9c;
 }
 
 .grid-image:hover {
-   border: 6px solid #7afd7a9c; 
+   border: 9px solid #7afd7a9c; 
 }
+
 
 .popup p {
     margin: 6px 0 0 0;
